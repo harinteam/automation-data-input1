@@ -10,7 +10,7 @@ from selenium.common.exceptions import TimeoutException
 from openpyxl import load_workbook
 import time
 
-wb = load_workbook(filename = 'D:\Python_project\automation_data_input1\data.xlsx')
+wb = load_workbook(filename = 'data.xlsx')
 
 sheetRange = wb['Sheet1']
 
@@ -51,3 +51,4 @@ while i <= len(sheetRange['A']):
     i = i + 1
 
 print("beres kang")
+time.sleep(15)
