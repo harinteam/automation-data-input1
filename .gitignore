@@ -1,6 +1,7 @@
 .idea/
 venv/
 .vscode/
+.data.xlx/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
